@@ -1,0 +1,17 @@
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#0369a1"/>
+  <rect x="50" y="50" width="300" height="200" fill="white" rx="10"/>
+  <rect x="80" y="80" width="240" height="30" fill="#0369a1" rx="4"/>
+  <rect x="90" y="85" width="50" height="20" fill="white" rx="2"/>
+  <rect x="150" y="85" width="50" height="20" fill="white" rx="2"/>
+  <rect x="210" y="85" width="50" height="20" fill="white" rx="2"/>
+  <rect x="270" y="85" width="40" height="20" fill="white" rx="2"/>
+  <rect x="80" y="120" width="60" height="15" fill="#e5e7eb" rx="2"/>
+  <rect x="80" y="140" width="80" height="15" fill="#e5e7eb" rx="2"/>
+  <rect x="80" y="160" width="70" height="15" fill="#e5e7eb" rx="2"/>
+  <rect x="80" y="180" width="90" height="15" fill="#e5e7eb" rx="2"/>
+  <circle cx="280" cy="150" r="25" fill="#10b981"/>
+  <path d="M270 150 L278 158 L290 142" stroke="white" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <text x="200" y="220" text-anchor="middle" fill="#0369a1" font-family="Arial, sans-serif" font-size="12" font-weight="bold">PLACEMENT</text>
+  <text x="200" y="235" text-anchor="middle" fill="#0369a1" font-family="Arial, sans-serif" font-size="12" font-weight="bold">MANAGEMENT</text>
+</svg>

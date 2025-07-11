@@ -1,0 +1,12 @@
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#7c3aed"/>
+  <rect x="50" y="50" width="300" height="200" fill="white" rx="10"/>
+  <circle cx="120" cy="100" r="15" fill="#a78bfa"/>
+  <circle cx="200" cy="120" r="20" fill="#8b5cf6"/>
+  <circle cx="280" cy="100" r="15" fill="#a78bfa"/>
+  <circle cx="160" cy="160" r="12" fill="#c4b5fd"/>
+  <circle cx="240" cy="160" r="12" fill="#c4b5fd"/>
+  <path d="M120 100 L200 120 M200 120 L280 100 M120 100 L160 160 M200 120 L160 160 M200 120 L240 160 M280 100 L240 160" stroke="#6d28d9" stroke-width="2"/>
+  <text x="200" y="200" text-anchor="middle" fill="#7c3aed" font-family="Arial, sans-serif" font-size="12" font-weight="bold">CHEMICAL</text>
+  <text x="200" y="215" text-anchor="middle" fill="#7c3aed" font-family="Arial, sans-serif" font-size="12" font-weight="bold">SIMULATION</text>
+</svg>

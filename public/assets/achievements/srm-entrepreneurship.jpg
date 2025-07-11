@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="srmGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7C3AED"/>
+      <stop offset="100%" style="stop-color:#A855F7"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#srmGrad)"/>
+  <circle cx="200" cy="90" r="35" fill="white" opacity="0.9"/>
+  <text x="200" y="80" text-anchor="middle" fill="#7C3AED" font-family="Arial, sans-serif" font-size="12" font-weight="bold">💡</text>
+  <text x="200" y="100" text-anchor="middle" fill="#7C3AED" font-family="Arial, sans-serif" font-size="10">STARTUP</text>
+  <text x="200" y="150" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="15" font-weight="bold">Entrepreneurship</text>
+  <text x="200" y="170" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="14">Program</text>
+  <text x="200" y="190" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">Participant</text>
+  <text x="200" y="220" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16" font-weight="bold">SRM</text>
+  <text x="200" y="240" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="14">Tiruchirappalli</text>
+</svg>

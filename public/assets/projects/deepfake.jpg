@@ -1,0 +1,14 @@
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#1e40af"/>
+  <rect x="50" y="50" width="300" height="200" fill="white" rx="10"/>
+  <circle cx="200" cy="100" r="20" fill="#ef4444"/>
+  <rect x="160" y="130" width="80" height="4" fill="#6b7280" rx="2"/>
+  <rect x="140" y="140" width="120" height="4" fill="#6b7280" rx="2"/>
+  <rect x="170" y="150" width="60" height="4" fill="#6b7280" rx="2"/>
+  <text x="200" y="190" text-anchor="middle" fill="#1e40af" font-family="Arial, sans-serif" font-size="12" font-weight="bold">DEEPFAKE</text>
+  <text x="200" y="205" text-anchor="middle" fill="#1e40af" font-family="Arial, sans-serif" font-size="12" font-weight="bold">DETECTION</text>
+  <rect x="80" y="220" width="40" height="15" fill="#10b981" rx="3"/>
+  <rect x="130" y="220" width="50" height="15" fill="#f59e0b" rx="3"/>
+  <rect x="190" y="220" width="45" height="15" fill="#8b5cf6" rx="3"/>
+  <rect x="245" y="220" width="55" height="15" fill="#ef4444" rx="3"/>
+</svg>
