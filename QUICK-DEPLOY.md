@@ -7,6 +7,7 @@
 1. **✅ Build Complete** - Your `dist` folder is ready!
 
 2. **📂 Locate Your Build Folder:**
+
    - Open File Explorer
    - Navigate to: `C:\Users\Aadithya\OneDrive\Desktop\portfolio\dist`
    - This folder contains your entire website
@@ -18,6 +19,7 @@
    - You'll get a live URL like: `https://amazing-name-123456.netlify.app`
 
 ### ⚠️ Important Note:
+
 Your portfolio will be live, but the backend API won't work until you set up full-stack hosting.
 
 ---
@@ -25,10 +27,12 @@ Your portfolio will be live, but the backend API won't work until you set up ful
 ## Method 2: Vercel with GitHub (Best for Full-Stack)
 
 ### Prerequisites:
+
 1. Install Git: https://git-scm.com/download/win
 2. Create GitHub account: https://github.com/
 
 ### Commands to Run (after installing Git):
+
 ```bash
 # Initialize repository
 git init
@@ -47,6 +51,7 @@ git push -u origin main
 ## Method 3: Vercel CLI (Advanced)
 
 1. **Install Vercel CLI:**
+
    ```bash
    npm install -g vercel
    ```
@@ -61,11 +66,13 @@ git push -u origin main
 ## 🔥 QUICKEST PATH TO GO LIVE:
 
 ### Option A: Static Site (5 minutes)
+
 1. Go to https://app.netlify.com/drop
 2. Drag the `dist` folder
 3. Your portfolio is live! ✨
 
 ### Option B: Full-Stack (15 minutes)
+
 1. Install Git
 2. Create GitHub repository
 3. Push code to GitHub
