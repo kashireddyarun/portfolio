@@ -262,10 +262,10 @@ const Home = () => {
         // Fallback data if API is not available
         setProfile({
           name: "Arun K H",
-          title: "Full Stack Developer",
-          bio: "Passionate full-stack developer with expertise in React, Node.js, and modern web technologies.",
+          title: "Software Engineer",
+          bio: "As a curious and driven software engineer, I’m passionate about creating and innovating through technology. I thrive on building practical, impactful solutions—whether it's AI-powered tools, dynamic web applications, or experimental systems. My curiosity fuels my desire to explore new technologies and bring bold ideas to life through hands-on projects.",
           profileImage: "/images/profile.jpg",
-          skills: ["React.js", "Node.js", "JavaScript", "TypeScript", "MongoDB"]
+          skills: ["Python","Java","React.js", "Node.js", "JavaScript", "MongoDB"]
         });
       } finally {
         setLoading(false);
@@ -347,7 +347,7 @@ const Home = () => {
               transition={{ duration: 0.5, delay: 0.5 }}
             >
               <SocialLink 
-                href="https://github.com/yourusername" 
+                href="https://github.com/kashireddyarun" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 aria-label="GitHub"
@@ -355,7 +355,7 @@ const Home = () => {
                 <FiGithub />
               </SocialLink>
               <SocialLink 
-                href="https://linkedin.com/in/yourusername" 
+                href="www.linkedin.com/in/arun-k-h-76b94a271" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 aria-label="LinkedIn"
