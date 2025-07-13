@@ -24,8 +24,8 @@ const profileData = {
     "AWS"
   ],
   social: {
-    github: "https://github.com/arun-kh", // Update with your actual GitHub username
-    linkedin: "https://linkedin.com/in/arun-kh", // Update with your actual LinkedIn profile
+    github: "https://github.com/kashireddyarun", // Updated with your actual GitHub username
+    linkedin: "https://www.linkedin.com/in/arun-k-h-76b94a271", // Updated with your actual LinkedIn profile
     twitter: "https://twitter.com/arun_kh", // Update with your actual Twitter handle
     portfolio: "https://arun-portfolio.com" // Update with your actual portfolio URL
   },

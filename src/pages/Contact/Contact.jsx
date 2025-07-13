@@ -374,7 +374,7 @@ const Contact = () => {
                 <InfoTitle>Phone</InfoTitle>
               </InfoHeader>
               <InfoText>
-                +1 (555) 123-4567<br />
+                +91 8015924370<br />
                 Available Mon-Fri, 9AM-5PM
               </InfoText>
             </InfoCard>
@@ -387,7 +387,7 @@ const Contact = () => {
                 <InfoTitle>Location</InfoTitle>
               </InfoHeader>
               <InfoText>
-                Your City, Your State<br />
+                Chennai, TamilNadu<br />
                 Available for remote work
               </InfoText>
             </InfoCard>
@@ -396,7 +396,7 @@ const Contact = () => {
               <SocialTitle>Connect With Me</SocialTitle>
               <SocialLinks>
                 <SocialLink 
-                  href="https://github.com/yourusername" 
+                  href="https://github.com/kashireddyarun" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   aria-label="GitHub"
@@ -404,7 +404,7 @@ const Contact = () => {
                   <FiGithub />
                 </SocialLink>
                 <SocialLink 
-                  href="https://linkedin.com/in/yourusername" 
+                  href="https://www.linkedin.com/in/arun-k-h-76b94a271" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   aria-label="LinkedIn"
