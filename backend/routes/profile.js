@@ -10,7 +10,7 @@ const profileData = {
   phone: "+91 8015924370",
   location: "Chennai",
   bio: "Passionate full-stack developer from Chennai with expertise in React, Node.js, and modern web technologies. I love creating innovative solutions and building user-friendly applications that make a difference.",
-  profileImage: "/images/profile.jpg", // Replace with your actual photo path
+  profileImage: "/images/profile.jpg", // Web-accessible path for profile image
   skills: [
     "React.js",
     "Node.js",
