@@ -13,7 +13,10 @@ app.use(cors({
   origin: [
     'http://localhost:5173',
     'http://localhost:3000',
-    'https://your-domain.vercel.app',
+    'http://localhost:4173',
+    /\.vercel\.app$/,
+    /\.netlify\.app$/,
+    /\.render\.com$/,
     process.env.FRONTEND_URL
   ].filter(Boolean),
   credentials: true
