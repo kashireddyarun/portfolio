@@ -172,12 +172,12 @@ const Footer = () => {
           <FooterSection>
             <h3>Arun K H</h3>
             <FooterDescription>
-              Passionate full-stack developer creating innovative solutions and 
-              beautiful user experiences. Always learning, always building.
+              As a curious software engineer, I’m passionate about building innovative projects that solve real-world problems.
+              My drive to explore new technologies fuels my creativity and hands-on development approach.
             </FooterDescription>
             <SocialLinks>
               <SocialLink 
-                href="https://github.com/yourusername" 
+                href="https://github.com/kashireddyarun" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 aria-label="GitHub"
@@ -185,7 +185,7 @@ const Footer = () => {
                 <FiGithub />
               </SocialLink>
               <SocialLink 
-                href="https://linkedin.com/in/yourusername" 
+                href="www.linkedin.com/in/arun-k-h-76b94a271"  
                 target="_blank" 
                 rel="noopener noreferrer"
                 aria-label="LinkedIn"
@@ -223,8 +223,8 @@ const Footer = () => {
             <h3>Resources</h3>
             <FooterLinks>
               <FooterLink href={profile?.resume || "/assets/resume.pdf"} target="_blank">Resume</FooterLink>
-              <FooterLink href={profile?.social?.github || "https://github.com/arun-kh"} target="_blank">GitHub</FooterLink>
-              <FooterLink href={profile?.social?.linkedin || "https://linkedin.com/in/arun-kh"} target="_blank">LinkedIn</FooterLink>
+              <FooterLink href={profile?.social?.github || "https://github.com/kashireddyarun"} target="_blank">GitHub</FooterLink>
+              <FooterLink href={profile?.social?.linkedin || "www.linkedin.com/in/arun-k-h-76b94a271"} target="_blank">LinkedIn</FooterLink>
               <FooterLink href={`mailto:${profile?.email || "kashireddyarun@gmail.com"}`}>Email Me</FooterLink>
             </FooterLinks>
           </FooterSection>
