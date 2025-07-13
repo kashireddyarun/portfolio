@@ -283,7 +283,7 @@ const Achievements = () => {
   const [selectedType, setSelectedType] = useState('all');
   const [loading, setLoading] = useState(true);
 
-  const types = ['all', 'Education', 'Certification', 'Award', 'Competition'];
+  const types = ['all', 'Competition', 'Certification', 'Program'];
 
   useEffect(() => {
     const fetchAchievements = async () => {
@@ -293,20 +293,76 @@ const Achievements = () => {
         setFilteredAchievements(response.data);
       } catch (error) {
         console.error('Error fetching achievements:', error);
-        // Fallback data if API is not available
-        const fallbackAchievements = [
+        // Use real achievements data directly (fallback)
+        const realAchievements = [
           {
             id: 1,
-            title: "Bachelor of Science in Computer Science",
-            institution: "University Name",
-            type: "Education",
-            date: "2023-05-15",
-            description: "Graduated with honors in Computer Science",
-            gpa: "3.9/4.0"
+            title: "Smart India Hackathon 2023 Finalist",
+            institution: "Government of India",
+            type: "Competition",
+            date: "2023-08-15",
+            description: "Selected as finalist in Smart India Hackathon 2023, showcasing innovative solutions for real-world problems at the national level.",
+            imageUrl: "/assets/achievements/sih-2023.jpg"
+          },
+          {
+            id: 2,
+            title: "2nd Place - Project Expo",
+            institution: "Jerusalem College of Engineering",
+            type: "Competition",
+            date: "2024-02-10",
+            description: "Won 2nd place in the project exposition conducted by Jerusalem College of Engineering for innovative project presentation.",
+            imageUrl: "/assets/achievements/jce-expo.jpg"
+          },
+          {
+            id: 3,
+            title: "1st Place - BIS National Competition",
+            institution: "Bureau of Indian Standards",
+            type: "Competition",
+            date: "2024-01-20",
+            description: "Secured first place in the BIS (Bureau of Indian Standards) national competition, demonstrating excellence in technical innovation.",
+            imageUrl: "/assets/achievements/bis-national.jpg"
+          },
+          {
+            id: 4,
+            title: "Top 10 - Hackathon",
+            institution: "St. Joseph's College of Engineering",
+            type: "Competition",
+            date: "2023-11-15",
+            description: "Achieved top 10 position in the hackathon conducted by St. Joseph's College of Engineering among numerous participants.",
+            imageUrl: "/assets/achievements/sjce-hackathon.jpg"
+          },
+          {
+            id: 5,
+            title: "Deep Learning Certification",
+            institution: "NPTEL",
+            type: "Certification",
+            date: "2024-04-30",
+            description: "Successfully completed and certified in Deep Learning course from NPTEL, covering neural networks, CNNs, RNNs, and advanced deep learning techniques.",
+            certificateUrl: "https://nptel.ac.in/certificate/verify",
+            imageUrl: "/assets/achievements/nptel-dl.jpg"
+          },
+          {
+            id: 6,
+            title: "Large Language Models (LLM) Certification",
+            institution: "NPTEL",
+            type: "Certification",
+            date: "2024-06-15",
+            description: "Completed certification in Large Language Models from NPTEL, focusing on transformer architectures, GPT models, and natural language processing.",
+            certificateUrl: "https://nptel.ac.in/certificate/verify",
+            imageUrl: "/assets/achievements/nptel-llm.jpg"
+          },
+          {
+            id: 7,
+            title: "Entrepreneurship Program Participant",
+            institution: "SRM Tiruchirappalli",
+            type: "Program",
+            date: "2023-09-20",
+            description: "Actively participated in the entrepreneurship development program conducted by SRM Tiruchirappalli, gaining insights into startup ecosystem and business development.",
+            imageUrl: "/assets/achievements/srm-entrepreneurship.jpg"
           }
         ];
-        setAchievements(fallbackAchievements);
-        setFilteredAchievements(fallbackAchievements);
+        setAchievements(realAchievements);
+        setFilteredAchievements(realAchievements);
       } finally {
         setLoading(false);
       }

@@ -274,20 +274,71 @@ const Projects = () => {
         setFilteredProjects(response.data);
       } catch (error) {
         console.error('Error fetching projects:', error);
-        // Fallback data if API is not available
-        const fallbackProjects = [
+        // Use real project data directly (fallback)
+        const realProjects = [
           {
             id: 1,
-            title: "Portfolio Website",
-            description: "A responsive portfolio website built with React and Node.js",
-            technologies: ["React", "Node.js", "Express", "Styled Components"],
+            title: "Deepfake Detection System",
+            description: "An advanced machine learning system for detecting deepfake videos using computer vision and neural networks. Implements state-of-the-art algorithms to identify artificially generated content with high accuracy.",
+            technologies: ["Python", "TensorFlow", "OpenCV", "CNN", "Deep Learning", "Computer Vision"],
+            githubUrl: "https://github.com/kashireddyarun/deepfake-detection",
+            liveUrl: null,
+            imageUrl: "/assets/projects/deepfake.jpg",
+            category: "Machine Learning",
+            featured: true,
+            createdAt: "2024-04-15"
+          },
+          {
+            id: 2,
+            title: "AI Traffic Management System",
+            description: "Intelligent traffic management system using AI to optimize traffic flow, reduce congestion, and improve urban transportation efficiency. Features real-time traffic analysis and adaptive signal control.",
+            technologies: ["Python", "TensorFlow", "Computer Vision", "IoT", "Real-time Processing", "AI"],
+            githubUrl: "https://github.com/kashireddyarun/ai-traffic-management",
+            liveUrl: null,
+            imageUrl: "/assets/projects/traffic.jpg",
+            category: "Artificial Intelligence",
+            featured: true,
+            createdAt: "2024-03-20"
+          },
+          {
+            id: 3,
+            title: "Skin Disease Analysis using ML",
+            description: "Machine learning-based skin disease classification system that analyzes medical images to assist in early diagnosis. Uses deep learning models trained on dermatological datasets.",
+            technologies: ["Python", "TensorFlow", "Keras", "Image Processing", "Medical AI", "CNN"],
+            githubUrl: "https://github.com/kashireddyarun/skin-disease-analysis",
+            liveUrl: null,
+            imageUrl: "/assets/projects/skin-analysis.jpg",
+            category: "Machine Learning",
+            featured: true,
+            createdAt: "2024-02-10"
+          },
+          {
+            id: 4,
+            title: "Solid State Chemical Reaction Simulation",
+            description: "Computational simulation system for modeling solid-state chemical reactions using advanced algorithms. Provides insights into reaction mechanisms and material properties.",
+            technologies: ["Python", "NumPy", "SciPy", "Matplotlib", "Computational Chemistry", "Simulation"],
+            githubUrl: "https://github.com/kashireddyarun/chemical-reaction-simulation",
+            liveUrl: null,
+            imageUrl: "/assets/projects/chemical.jpg",
+            category: "Scientific Computing",
+            featured: false,
+            createdAt: "2024-01-15"
+          },
+          {
+            id: 5,
+            title: "Placement Management System",
+            description: "Comprehensive web-based placement management system for educational institutions. Features student registration, company management, interview scheduling, and placement tracking.",
+            technologies: ["React", "Node.js", "MongoDB", "Express", "JWT", "Material-UI"],
+            githubUrl: "https://github.com/kashireddyarun/placement-management",
+            liveUrl: "https://placement-management-demo.com",
+            imageUrl: "/assets/projects/placement.jpg",
             category: "Web Development",
-            githubUrl: "https://github.com/yourusername/portfolio",
-            liveUrl: "https://yourportfolio.com"
+            featured: false,
+            createdAt: "2023-12-05"
           }
         ];
-        setProjects(fallbackProjects);
-        setFilteredProjects(fallbackProjects);
+        setProjects(realProjects);
+        setFilteredProjects(realProjects);
       } finally {
         setLoading(false);
       }
